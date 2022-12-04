@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: C:/Users/marle/OneDrive/Área de Trabalho/UNISUL/proj-agenda-micro-services/proj-config/arquivos-configuracao
